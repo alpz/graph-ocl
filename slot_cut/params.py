@@ -12,7 +12,7 @@ class SlotCutParams:
     resolution: Tuple[int, int] = (128, 128)
     clevrtex_variant: str = "full"
     num_slots: int = 12
-    data_root: str = "/local-ssd/aapervez"
+    data_root: str = "~/dataset"
     gpus: int = 1
     max_epochs: int = 500
     num_sanity_val_steps: int = 1
